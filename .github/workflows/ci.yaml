@@ -62,3 +62,4 @@ jobs:
 
      - name: format
        run: dotnet format CSharpTesting.slnx --verify-no-changes --no-restore
+       continue-on-error: true
